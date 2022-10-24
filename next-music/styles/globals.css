@@ -1,9 +1,14 @@
-/* html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(to bottom, #BCA0A0, #242424b0, #242424);
 }
 
 a {
@@ -15,16 +20,21 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
+input[type=range] {
+  margin: 0 10px;
+  height: 6px;
+  border-radius: 100px;
+  background: #fff;
+  appearance: none;
+  width: 560px;
+  outline: none;
+}
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+#volume-range {
+  width: 200px;
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #22C55E;
+  border: none;
+}
