@@ -55,7 +55,7 @@ export const Payment = () => {
           accounts: {
             payerWallet: payerSigner,
             receiver: new PublicKey(
-              'FdGbqLGZQgTpqXc1bKa41YsJTWHPxfwZKmTykjG6Jj1V',
+              '9R62mjtgAFRRYn3AMXbJBrRWejGnuUUMFLuyVL94R4XC',
             ),
             authority: wallet.publicKey,
             ...defaultAccounts,
