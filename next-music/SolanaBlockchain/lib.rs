@@ -43,7 +43,7 @@ pub struct PayerContext<'info> {
     pub receiver: AccountInfo<'info>,
 
     #[account(mut)]
-    pub authority: Signer<'info>,
+    pub authority: Signer<'info>, 
 
     pub system_program: UncheckedAccount<'info>,
 

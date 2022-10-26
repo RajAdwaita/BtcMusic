@@ -36,7 +36,7 @@ const HomePage = () => {
         <Playlist songs={songs} />
         <PlayerControls songs={songs} />
         {showUploadMusic && (
-          <UploadModal
+          <UploadModal 
             title={title}
             setTitle={setTitle}
             setShowUploadMusic={setShowUploadMusic}
