@@ -38,7 +38,7 @@ export const SpotifyProvider = ({ children }) => {
       setIsPlaying(true)
       setIsPaused(false)
     } catch (e) { }
-  }
+  } 
 
   const secondsToMinSec = (value) => {
     const minute = Math.round(value / 60);
